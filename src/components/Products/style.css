@@ -1,0 +1,27 @@
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.item-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.item-box img {
+    max-width: 5rem;
+    max-height: 5rem;
+}
+.item-box h4 {
+    margin: 0.2rem;
+}
+.products-section {
+    width: 60%;
+}
